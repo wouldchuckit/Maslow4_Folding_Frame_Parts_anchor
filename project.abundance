@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "WoodThick",
-      "ioValue": 19.8,
-      "currentEquation": "19.8"
+      "ioValue": 19.8
     },
     {
       "name": "BeamHeight",
@@ -34,7 +33,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.20092378752886836,
+      "y": 0.10999999999999999,
       "uniqueID": "id-16",
       "name": "WoodThick",
       "type": "number"
@@ -42,7 +41,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.27251732101616627,
+      "y": 0.176,
       "uniqueID": "id-19",
       "name": "BeamHeight",
       "type": "number"
@@ -50,7 +49,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.3394919168591224,
+      "y": 0.242,
       "uniqueID": "id-21",
       "name": "BitDiameter",
       "type": "number"
@@ -58,7 +57,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.4064665127020785,
+      "y": 0.308,
       "uniqueID": "id-24",
       "name": "Bolt2Diameter",
       "type": "number"
@@ -71,12 +70,12 @@
       "name": "y - 4*x",
       "ioValues": [
         {
-          "name": "x",
-          "ioValue": 19.8
-        },
-        {
           "name": "y",
           "ioValue": 203
+        },
+        {
+          "name": "x",
+          "ioValue": 19.8
         }
       ],
       "currentEquation": "y - 4*x"
@@ -490,8 +489,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.1553398058252427,
-      "y": 0.8568129330254042,
+      "x": 0.15803667745415317,
+      "y": 0.8475750577367206,
       "uniqueID": "id-143",
       "name": "x*.5/sqrt(2)",
       "ioValues": [
@@ -605,7 +604,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 6.4
         },
         {
           "name": "zDist",
@@ -625,7 +624,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": -6.4
         },
         {
           "name": "zDist",
@@ -655,28 +654,28 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.2756202804746494,
-      "y": 0.8521939953810623,
+      "x": 0.267529665587918,
+      "y": 0.8452655889145496,
       "uniqueID": "id-192",
-      "name": "x/2",
+      "name": "x",
       "ioValues": [
         {
           "name": "x",
           "ioValue": 6.4
         }
       ],
-      "currentEquation": "x/2"
+      "currentEquation": "x"
     },
     {
       "atomType": "Equation",
-      "x": 0.27238403451995685,
-      "y": 0.951501154734411,
+      "x": 0.2686084142394822,
+      "y": 0.9584295612009238,
       "uniqueID": "id-196",
       "name": "-x",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 3.2
+          "ioValue": 6.4
         }
       ],
       "currentEquation": "-x"
@@ -693,7 +692,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 9.600000000000001
+          "ioValue": 0
         },
         {
           "name": "zDist",
@@ -703,14 +702,14 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.42340884573894283,
-      "y": 0.9445727482678984,
+      "x": 0.43365695792880254,
+      "y": 0.9353348729792148,
       "uniqueID": "id-206",
       "name": "1.5*x",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 6.4
+          "ioValue": 1
         }
       ],
       "currentEquation": "1.5*x"
@@ -772,11 +771,6 @@
       "ap2Name": "x",
       "ap1ID": "id-24",
       "ap2ID": "id-192"
-    },
-    {
-      "ap2Name": "x",
-      "ap1ID": "id-24",
-      "ap2ID": "id-206"
     },
     {
       "ap2Name": "y length",
@@ -1024,14 +1018,19 @@
       "ap2ID": "id-196"
     },
     {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-200",
-      "ap2ID": "id-210"
+      "ap2Name": "yDist",
+      "ap1ID": "id-192",
+      "ap2ID": "id-174"
     },
     {
       "ap2Name": "yDist",
-      "ap1ID": "id-206",
-      "ap2ID": "id-200"
+      "ap1ID": "id-196",
+      "ap2ID": "id-180"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-200",
+      "ap2ID": "id-210"
     }
   ],
   "unitsKey": "MM",
