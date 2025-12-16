@@ -472,8 +472,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.2928802588996764,
-      "y": 0.8660508083140878,
+      "x": 0.3354908306364617,
+      "y": 0.833718244803695,
       "uniqueID": "id-131",
       "ioValues": [
         {
@@ -595,8 +595,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.3856526429341963,
-      "y": 0.745958429561201,
+      "x": 0.3727076591154261,
+      "y": 0.7575057736720554,
       "uniqueID": "id-174",
       "ioValues": [
         {
@@ -605,7 +605,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 3.2
         },
         {
           "name": "zDist",
@@ -615,8 +615,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.38349514563106796,
-      "y": 0.9330254041570438,
+      "x": 0.37378640776699035,
+      "y": 0.9168591224018476,
       "uniqueID": "id-180",
       "ioValues": [
         {
@@ -625,7 +625,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": -3.2
         },
         {
           "name": "zDist",
@@ -635,8 +635,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.4638619201725998,
-      "y": 0.8106235565819861,
+      "x": 0.424487594390507,
+      "y": 0.7575057736720554,
       "uniqueID": "id-186",
       "ioValues": [
         {
@@ -655,21 +655,31 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.44606256742179073,
-      "y": 0.45265588914549654,
+      "x": 0.2826321467098166,
+      "y": 0.8521939953810623,
       "uniqueID": "id-192",
-      "name": "x + y",
+      "name": "x/2",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 1
-        },
-        {
-          "name": "y",
-          "ioValue": 1
+          "ioValue": 6.4
         }
       ],
-      "currentEquation": "x + y"
+      "currentEquation": "x/2"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.2858683926645092,
+      "y": 0.9399538106235567,
+      "uniqueID": "id-196",
+      "name": "-x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 3.2
+        }
+      ],
+      "currentEquation": "-x"
     }
   ],
   "allConnectors": [
@@ -707,6 +717,11 @@
       "ap2Name": "diameter",
       "ap1ID": "id-24",
       "ap2ID": "id-131"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-24",
+      "ap2ID": "id-192"
     },
     {
       "ap2Name": "y length",
@@ -937,6 +952,21 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-180",
       "ap2ID": "id-186"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-192",
+      "ap2ID": "id-196"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-192",
+      "ap2ID": "id-174"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-196",
+      "ap2ID": "id-180"
     }
   ],
   "unitsKey": "MM",
