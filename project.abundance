@@ -66,7 +66,7 @@
     {
       "atomType": "Equation",
       "x": 0.037756202804746494,
-      "y": 0.5496535796766744,
+      "y": 0.6697459584295612,
       "uniqueID": "id-36",
       "name": "y - 4*x",
       "ioValues": [
@@ -89,13 +89,49 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 203
+          "ioValue": 10
         },
         {
           "name": "y length",
           "ioValue": 123.8
         }
       ]
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.0372168284789644,
+      "y": 0.7759815242494226,
+      "uniqueID": "id-44",
+      "name": "AnchorDimension",
+      "value": 100
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.1494066882416397,
+      "y": 0.7344110854503464,
+      "uniqueID": "id-46",
+      "name": "2*x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "2*x"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.1488673139158576,
+      "y": 0.8498845265588915,
+      "uniqueID": "id-50",
+      "name": "3*x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 1
+        }
+      ],
+      "currentEquation": "3*x"
     }
   ],
   "allConnectors": [
@@ -108,11 +144,6 @@
       "ap2Name": "y",
       "ap1ID": "id-19",
       "ap2ID": "id-36"
-    },
-    {
-      "ap2Name": "x length",
-      "ap1ID": "id-19",
-      "ap2ID": "id-40"
     },
     {
       "ap2Name": "y length",
