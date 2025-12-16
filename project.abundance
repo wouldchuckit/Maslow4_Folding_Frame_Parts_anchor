@@ -187,8 +187,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.39212513484358147,
-      "y": 0.26558891454965355,
+      "x": 0.3365695792880259,
+      "y": 0.20785219399538107,
       "uniqueID": "id-73",
       "ioValues": [
         {
@@ -244,14 +244,41 @@
             "tags": [],
             "bom": []
           }
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": {
+            "geometry": "move-rectangle-100-300-0-251.5-0",
+            "dimension": "2D",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": []
+          }
         }
       ],
       "unionType": "Fusion"
     },
     {
       "atomType": "Move",
-      "x": 0.2416396979503776,
-      "y": 0.4965357967667437,
+      "x": 0.2367853290183387,
+      "y": 0.48729792147806006,
       "uniqueID": "id-78",
       "ioValues": [
         {
@@ -260,7 +287,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 101.5
+          "ioValue": 251.5
         },
         {
           "name": "zDist",
@@ -273,14 +300,18 @@
       "x": 0.12028047464940668,
       "y": 0.8937644341801385,
       "uniqueID": "id-84",
-      "name": "x/2",
+      "name": "x/2 + 1.5 * y",
       "ioValues": [
         {
           "name": "x",
           "ioValue": 203
+        },
+        {
+          "name": "y",
+          "ioValue": 100
         }
       ],
-      "currentEquation": "x/2"
+      "currentEquation": "x/2 + 1.5 * y"
     }
   ],
   "allConnectors": [
@@ -314,6 +345,7 @@
       "ap1ID": "id-40",
       "ap2ID": "id-54"
     },
+    null,
     {
       "ap2Name": "x",
       "ap1ID": "id-44",
@@ -338,6 +370,11 @@
       "ap2Name": "x length",
       "ap1ID": "id-44",
       "ap2ID": "id-64"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-44",
+      "ap2ID": "id-84"
     },
     {
       "ap2Name": "x length",
@@ -368,6 +405,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-73",
       "ap2ID": "id-14"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-78",
+      "ap2ID": "id-73"
     },
     {
       "ap2Name": "yDist",
