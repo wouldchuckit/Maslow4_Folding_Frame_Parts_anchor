@@ -6,20 +6,21 @@
   "name": "Maslow4_Folding_Frame_Parts_anchor",
   "ioValues": [
     {
+      "name": "WoodThick",
+      "ioValue": 19.8,
+      "currentEquation": "19.8"
+    },
+    {
       "name": "BeamHeight",
-      "ioValue": 10
+      "ioValue": 203
     },
     {
       "name": "BitDiameter",
-      "ioValue": 10
+      "ioValue": 6.4
     },
     {
       "name": "Bolt2Diameter",
-      "ioValue": 10
-    },
-    {
-      "name": "WoodThick",
-      "ioValue": 10
+      "ioValue": 6.4
     }
   ],
   "topLevel": true,
@@ -33,7 +34,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.10999999999999999,
+      "y": 0.20092378752886836,
       "uniqueID": "id-16",
       "name": "WoodThick",
       "type": "number"
@@ -41,7 +42,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.176,
+      "y": 0.27251732101616627,
       "uniqueID": "id-19",
       "name": "BeamHeight",
       "type": "number"
@@ -49,7 +50,7 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.242,
+      "y": 0.3394919168591224,
       "uniqueID": "id-21",
       "name": "BitDiameter",
       "type": "number"
@@ -57,13 +58,58 @@
     {
       "atomType": "Input",
       "x": 0.01815,
-      "y": 0.308,
+      "y": 0.4064665127020785,
       "uniqueID": "id-24",
       "name": "Bolt2Diameter",
       "type": "number"
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.037756202804746494,
+      "y": 0.5496535796766744,
+      "uniqueID": "id-36",
+      "name": "y - 4*x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 19.8
+        },
+        {
+          "name": "y",
+          "ioValue": 203
+        }
+      ],
+      "currentEquation": "y - 4*x"
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.12567421790722763,
+      "y": 0.21478060046189376,
+      "uniqueID": "id-40",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-16",
+      "ap2ID": "id-36"
+    },
+    {
+      "ap2Name": "y",
+      "ap1ID": "id-19",
+      "ap2ID": "id-36"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
