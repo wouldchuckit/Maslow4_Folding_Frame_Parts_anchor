@@ -83,17 +83,17 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.12567421790722763,
-      "y": 0.21478060046189376,
+      "x": 0.1343042071197411,
+      "y": 0.3695150115473441,
       "uniqueID": "id-40",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 10
+          "ioValue": 203
         },
         {
           "name": "y length",
-          "ioValue": 10
+          "ioValue": 123.8
         }
       ]
     }
@@ -108,6 +108,16 @@
       "ap2Name": "y",
       "ap1ID": "id-19",
       "ap2ID": "id-36"
+    },
+    {
+      "ap2Name": "x length",
+      "ap1ID": "id-19",
+      "ap2ID": "id-40"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-36",
+      "ap2ID": "id-40"
     }
   ],
   "unitsKey": "MM",
