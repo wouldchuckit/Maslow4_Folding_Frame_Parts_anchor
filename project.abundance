@@ -32,32 +32,32 @@
     },
     {
       "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.10999999999999999,
+      "x": 0.05499999999999999,
+      "y": 0.3333333333333333,
       "uniqueID": "id-16",
       "name": "WoodThick",
       "type": "number"
     },
     {
       "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.176,
+      "x": 0.05499999999999999,
+      "y": 0.5333333333333333,
       "uniqueID": "id-19",
       "name": "BeamHeight",
       "type": "number"
     },
     {
       "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.242,
+      "x": 0.05499999999999999,
+      "y": 0.7333333333333334,
       "uniqueID": "id-21",
       "name": "BitDiameter",
       "type": "number"
     },
     {
       "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.308,
+      "x": 0.05499999999999999,
+      "y": 0.9333333333333333,
       "uniqueID": "id-24",
       "name": "Bolt2Diameter",
       "type": "number"
@@ -1014,14 +1014,10 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5285868392664509,
-      "y": 0.18475750577367206,
+      "x": 0.6089676905722513,
+      "y": 0.2602780265097292,
       "uniqueID": "id-430",
       "ioValues": [
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
         {
           "name": "yDist",
           "ioValue": 0
@@ -1048,8 +1044,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5415318230852212,
-      "y": 0.3302540415704388,
+      "x": 0.5515004178903399,
+      "y": 0.44010650445215455,
       "uniqueID": "id-440",
       "ioValues": [
         {
@@ -1063,6 +1059,26 @@
         {
           "name": "zDist",
           "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.8277140893495285,
+      "y": 0.33836144394015677,
+      "uniqueID": "id-642",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
         }
       ]
     }
@@ -1514,11 +1530,6 @@
       "ap2ID": "id-413"
     },
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-405",
-      "ap2ID": "id-14"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-405",
       "ap2ID": "id-426"
@@ -1549,14 +1560,39 @@
       "ap2ID": "id-430"
     },
     {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-422",
+      "ap2ID": "id-642"
+    },
+    {
+      "ap2Name": "xDist",
+      "ap1ID": "id-426",
+      "ap2ID": "id-430"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-426",
+      "ap2ID": "id-642"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-430",
       "ap2ID": "id-440"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-430",
+      "ap2ID": "id-642"
+    },
+    {
       "ap2Name": "zDist",
       "ap1ID": "id-436",
       "ap2ID": "id-430"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-642",
+      "ap2ID": "id-14"
     }
   ],
   "unitsKey": "MM",
