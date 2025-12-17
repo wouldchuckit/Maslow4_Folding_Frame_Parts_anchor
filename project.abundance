@@ -471,8 +471,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.3775620280474649,
-      "y": 0.4434180138568129,
+      "x": 0.348435814455232,
+      "y": 0.3510392609699769,
       "uniqueID": "id-131",
       "ioValues": [
         {
@@ -774,8 +774,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.45738942826321466,
-      "y": 0.47113163972286376,
+      "x": 0.4568500539374326,
+      "y": 0.3879907621247113,
       "uniqueID": "id-350",
       "ioValues": [
         {
@@ -784,7 +784,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 131.5
         },
         {
           "name": "zDist",
@@ -794,21 +794,21 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.5647249190938511,
-      "y": 0.4618937644341801,
+      "x": 0.37971952535059333,
+      "y": 0.5057736720554272,
       "uniqueID": "id-356",
-      "name": ".5x + y",
+      "name": ".5*x +2* y",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 1
+          "ioValue": 203
         },
         {
           "name": "y",
-          "ioValue": 1
+          "ioValue": 15
         }
       ],
-      "currentEquation": ".5x + y"
+      "currentEquation": ".5*x +2* y"
     }
   ],
   "allConnectors": [
@@ -831,6 +831,11 @@
       "ap2Name": "x",
       "ap1ID": "id-19",
       "ap2ID": "id-84"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-19",
+      "ap2ID": "id-356"
     },
     {
       "ap2Name": "diameter",
@@ -1058,6 +1063,11 @@
       "ap2ID": "id-174"
     },
     {
+      "ap2Name": "y",
+      "ap1ID": "id-168",
+      "ap2ID": "id-356"
+    },
+    {
       "ap2Name": "xDist",
       "ap1ID": "id-170",
       "ap2ID": "id-180"
@@ -1131,6 +1141,11 @@
       "ap2Name": "yDist",
       "ap1ID": "id-341",
       "ap2ID": "id-335"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-356",
+      "ap2ID": "id-350"
     }
   ],
   "unitsKey": "MM",
