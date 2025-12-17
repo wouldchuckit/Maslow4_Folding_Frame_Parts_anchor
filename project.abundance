@@ -890,8 +890,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7648327939590076,
-      "y": 0.7782909930715934,
+      "x": 0.7632146709816613,
+      "y": 0.7551963048498845,
       "uniqueID": "id-382",
       "ioValues": [
         {
@@ -925,6 +925,26 @@
       "uniqueID": "id-397",
       "name": "Constant_1",
       "value": 5
+    },
+    {
+      "atomType": "Move",
+      "x": 0.7642934196332255,
+      "y": 0.8868360277136258,
+      "uniqueID": "id-399",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1257,6 +1277,11 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-210",
       "ap2ID": "id-345"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-210",
+      "ap2ID": "id-399"
     },
     {
       "ap2Name": "Shape 2",
