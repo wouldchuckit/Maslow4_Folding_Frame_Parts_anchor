@@ -573,10 +573,10 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.20981661272923408,
-      "y": 0.8545034642032332,
+      "x": 0.21574973031283712,
+      "y": 0.8452655889145496,
       "uniqueID": "id-168",
-      "value": 15
+      "value": 20
     },
     {
       "atomType": "Equation",
@@ -587,7 +587,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 15
+          "ioValue": 20
         }
       ],
       "currentEquation": "-x"
@@ -600,7 +600,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 15
+          "ioValue": 20
         },
         {
           "name": "yDist",
@@ -620,7 +620,7 @@
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": -15
+          "ioValue": -20
         },
         {
           "name": "yDist",
@@ -654,8 +654,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.28532901833872704,
-      "y": 0.8406466512702079,
+      "x": 0.2810140237324703,
+      "y": 0.859122401847575,
       "uniqueID": "id-192",
       "name": "x",
       "ioValues": [
@@ -792,7 +792,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 116.5
+          "ioValue": 121.5
         },
         {
           "name": "zDist",
@@ -813,7 +813,7 @@
         },
         {
           "name": "y",
-          "ioValue": 15
+          "ioValue": 20
         }
       ],
       "currentEquation": ".5*x + y"
@@ -920,8 +920,8 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.2508090614886731,
-      "y": 0.7505773672055427,
+      "x": 0.24811218985976266,
+      "y": 0.7598152424942263,
       "uniqueID": "id-397",
       "name": "Constant_1",
       "value": 5
