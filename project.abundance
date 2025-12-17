@@ -471,8 +471,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.30312837108953616,
-      "y": 0.7505773672055427,
+      "x": 0.31391585760517804,
+      "y": 0.7113163972286374,
       "uniqueID": "id-131",
       "ioValues": [
         {
@@ -517,8 +517,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.24325782092772383,
-      "y": 0.6096997690531177,
+      "x": 0.2470334412081985,
+      "y": 0.5219399538106235,
       "uniqueID": "id-151",
       "ioValues": [
         {
@@ -537,8 +537,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.24325782092772383,
-      "y": 0.7344110854503464,
+      "x": 0.24271844660194175,
+      "y": 0.6420323325635103,
       "uniqueID": "id-157",
       "ioValues": [
         {
@@ -557,8 +557,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.2901833872707659,
-      "y": 0.6212471131639723,
+      "x": 0.2896440129449838,
+      "y": 0.5612009237875288,
       "uniqueID": "id-163",
       "ioValues": [
         {
@@ -573,8 +573,8 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.21574973031283712,
-      "y": 0.8637413394919169,
+      "x": 0.20981661272923408,
+      "y": 0.8545034642032332,
       "uniqueID": "id-168",
       "value": 15
     },
@@ -604,7 +604,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 6.4
+          "ioValue": 5
         },
         {
           "name": "zDist",
@@ -624,7 +624,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": -6.4
+          "ioValue": -5
         },
         {
           "name": "zDist",
@@ -654,14 +654,14 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.267529665587918,
-      "y": 0.8452655889145496,
+      "x": 0.2702265372168285,
+      "y": 0.8614318706697459,
       "uniqueID": "id-192",
       "name": "x",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 6.4
+          "ioValue": 5
         }
       ],
       "currentEquation": "x"
@@ -675,7 +675,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 6.4
+          "ioValue": 5
         }
       ],
       "currentEquation": "-x"
@@ -692,7 +692,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 19.200000000000003
+          "ioValue": 15
         },
         {
           "name": "zDist",
@@ -702,14 +702,14 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.42772384034519956,
-      "y": 0.9491916859122402,
+      "x": 0.418554476806904,
+      "y": 0.9676674364896074,
       "uniqueID": "id-206",
       "name": "3*x",
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 6.4
+          "ioValue": 5
         }
       ],
       "currentEquation": "3*x"
@@ -742,7 +742,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 38.400000000000006
+          "ioValue": 30
         },
         {
           "name": "zDist",
@@ -759,7 +759,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 6.4
+          "ioValue": 5
         }
       ],
       "currentEquation": "6*x"
@@ -827,7 +827,7 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 6.4
+          "ioValue": 5
         }
       ],
       "currentEquation": "12* x"
@@ -844,7 +844,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 76.80000000000001
+          "ioValue": 60
         },
         {
           "name": "zDist",
@@ -880,7 +880,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 153.60000000000002
+          "ioValue": 120
         },
         {
           "name": "zDist",
@@ -890,8 +890,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7686084142394821,
-      "y": 0.7205542725173211,
+      "x": 0.7648327939590076,
+      "y": 0.7782909930715934,
       "uniqueID": "id-382",
       "ioValues": [
         {
@@ -913,10 +913,18 @@
       "ioValues": [
         {
           "name": "x",
-          "ioValue": 6.4
+          "ioValue": 5
         }
       ],
       "currentEquation": "24*x"
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.2686084142394822,
+      "y": 0.7598152424942263,
+      "uniqueID": "id-397",
+      "name": "Constant_1",
+      "value": 5
     }
   ],
   "allConnectors": [
@@ -959,11 +967,6 @@
       "ap2Name": "diameter",
       "ap1ID": "id-24",
       "ap2ID": "id-131"
-    },
-    {
-      "ap2Name": "x",
-      "ap1ID": "id-24",
-      "ap2ID": "id-192"
     },
     {
       "ap2Name": "y length",
@@ -1324,6 +1327,11 @@
       "ap2Name": "yDist",
       "ap1ID": "id-393",
       "ap2ID": "id-376"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-397",
+      "ap2ID": "id-192"
     }
   ],
   "unitsKey": "MM",
