@@ -880,7 +880,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 0
+          "ioValue": 153.60000000000002
         },
         {
           "name": "zDist",
@@ -897,8 +897,26 @@
         {
           "name": "Shape 1",
           "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.6477885652642934,
+      "y": 0.9699769053117784,
+      "uniqueID": "id-393",
+      "name": "24*x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 6.4
+        }
+      ],
+      "currentEquation": "24*x"
     }
   ],
   "allConnectors": [
@@ -1208,6 +1226,11 @@
       "ap2ID": "id-361"
     },
     {
+      "ap2Name": "x",
+      "ap1ID": "id-192",
+      "ap2ID": "id-393"
+    },
+    {
       "ap2Name": "yDist",
       "ap1ID": "id-196",
       "ap2ID": "id-180"
@@ -1291,6 +1314,16 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-371",
       "ap2ID": "id-382"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-376",
+      "ap2ID": "id-382"
+    },
+    {
+      "ap2Name": "yDist",
+      "ap1ID": "id-393",
+      "ap2ID": "id-376"
     }
   ],
   "unitsKey": "MM",
