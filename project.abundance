@@ -389,8 +389,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.0970873786407767,
-      "y": 0.5727482678983834,
+      "x": 0.09546925566343041,
+      "y": 0.5681293302540416,
       "uniqueID": "id-98",
       "name": "x/2",
       "ioValues": [
@@ -1088,8 +1088,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.8414239482200647,
-      "y": 0.3579676674364896,
+      "x": 0.8187702265372168,
+      "y": 0.3140877598152425,
       "uniqueID": "id-864",
       "ioValues": [
         {
@@ -1105,6 +1105,20 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.7189859762675296,
+      "y": 0.418013856812933,
+      "uniqueID": "id-870",
+      "name": "-x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 5
+        }
+      ],
+      "currentEquation": "-x"
     }
   ],
   "allConnectors": [
@@ -1607,6 +1621,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-642",
       "ap2ID": "id-14"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-642",
+      "ap2ID": "id-864"
     },
     {
       "ap2Name": "Shape 5",
