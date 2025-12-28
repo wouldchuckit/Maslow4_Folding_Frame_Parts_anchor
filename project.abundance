@@ -98,8 +98,8 @@
     },
     {
       "atomType": "Constant",
-      "x": 0.038295577130528585,
-      "y": 0.6558891454965358,
+      "x": 0.0372168284789644,
+      "y": 0.6628175519630485,
       "uniqueID": "id-44",
       "name": "AnchorDimension",
       "value": 100
@@ -1028,8 +1028,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6429341963322546,
-      "y": 0.25404157043879905,
+      "x": 0.6467098166127293,
+      "y": 0.32101616628175517,
       "uniqueID": "id-642",
       "ioValues": [
         {
@@ -1088,8 +1088,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.8187702265372168,
-      "y": 0.3140877598152425,
+      "x": 0.7319309600862999,
+      "y": 0.3810623556581986,
       "uniqueID": "id-864",
       "ioValues": [
         {
@@ -1108,8 +1108,8 @@
     },
     {
       "atomType": "Equation",
-      "x": 0.7189859762675296,
-      "y": 0.418013856812933,
+      "x": 0.6467098166127293,
+      "y": 0.47113163972286376,
       "uniqueID": "id-870",
       "name": "-x",
       "ioValues": [
@@ -1119,6 +1119,71 @@
         }
       ],
       "currentEquation": "-x"
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.7373247033441208,
+      "y": 0.10392609699769054,
+      "uniqueID": "id-1084",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 6.4
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.7373247033441208,
+      "y": 0.21478060046189376,
+      "uniqueID": "id-1090",
+      "name": "3*x",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 19.8
+        }
+      ],
+      "currentEquation": "3*x"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.7869471413160734,
+      "y": 0.14549653579676675,
+      "uniqueID": "id-1094",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 59.400000000000006
+        }
+      ]
+    },
+    {
+      "atomType": "Color",
+      "x": 0.8333333333333334,
+      "y": 0.14780600461893764,
+      "uniqueID": "id-1098",
+      "selectedColor": "Keep Out"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.8807982740021575,
+      "y": 0.14549653579676675,
+      "uniqueID": "id-1101",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1146,6 +1211,11 @@
       "ap2Name": "zDist",
       "ap1ID": "id-16",
       "ap2ID": "id-850"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-16",
+      "ap2ID": "id-1090"
     },
     {
       "ap2Name": "y",
@@ -1181,6 +1251,11 @@
       "ap2Name": "diameter",
       "ap1ID": "id-24",
       "ap2ID": "id-131"
+    },
+    {
+      "ap2Name": "diameter",
+      "ap1ID": "id-24",
+      "ap2ID": "id-1084"
     },
     {
       "ap2Name": "y length",
@@ -1646,6 +1721,21 @@
       "ap2Name": "xDist",
       "ap1ID": "id-870",
       "ap2ID": "id-864"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1084",
+      "ap2ID": "id-1094"
+    },
+    {
+      "ap2Name": "height",
+      "ap1ID": "id-1090",
+      "ap2ID": "id-1094"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1094",
+      "ap2ID": "id-1098"
     }
   ],
   "unitsKey": "MM",
